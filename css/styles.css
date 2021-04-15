@@ -12,6 +12,10 @@
   overflow-x: hidden;
 }
 
+button {
+  border-radius: 150px;
+}
+
 header {
   padding: 80px 80px 0 80px;
   display: -webkit-box;
@@ -34,10 +38,86 @@ header button {
   width: 136px;
   height: 40px;
   border: 1px solid #ff52bf;
-  border-radius: 40px;
   color: #ff52bf;
   background: transparent;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+
+#sect-1 {
+  padding: 0 10vw;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#sect-1 h2 {
+  font-size: 3.2rem;
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+  line-height: 3.5rem;
+}
+
+#sect-1 h2,
+#sect-1 p,
+#sect-1 button {
+  text-align: center;
+}
+
+#sect-1 p,
+#sect-1 button {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+#sect-1 p {
+  max-width: 35rem;
+  margin: 1rem 0 2rem;
+  font-weight: 400;
+}
+
+#sect-1 button {
+  width: 400px;
+  height: 80px;
+  border: none;
+  background: #ff52bf;
+  color: white;
+  font-weight: 600;
+}
+
+#imgNStats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#imgNStats #promImg {
+  width: 75vw;
+  height: auto;
+}
+
+#imgNStats .statBox {
+  background: black;
 }
 /*# sourceMappingURL=styles.css.map */

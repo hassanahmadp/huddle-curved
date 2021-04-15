@@ -1,0 +1,11 @@
+#imgNStats {
+  @include idealFlex;
+  flex-direction: column;
+  #promImg {
+    width: 75vw;
+    height: auto;
+  }
+  .statBox {
+    background: black;
+  }
+}
