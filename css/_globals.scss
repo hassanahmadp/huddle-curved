@@ -1,0 +1,32 @@
+$colors: (
+  whit: white,
+);
+
+@function color($c) {
+  @return map-get($colors, $c);
+}
+
+@mixin idealFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex($j, $a) {
+  display: flex;
+  justify-content: $j;
+  align-items: $a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.bodyClone {
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
